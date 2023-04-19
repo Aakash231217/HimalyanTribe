@@ -1,1 +1,1 @@
-web: gunicorn himalayantribe.wsgi --log-file -
+web: gunicorn himalayantribe.wsgi:application
